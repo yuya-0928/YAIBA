@@ -27,6 +27,26 @@ This library is for the purpose!
 
 ![](https://raw.githubusercontent.com/ScienceAssembly/YAIBA/main/ipynb_examples/PlayerPositionPlot.gif)
 
+## Installation
+
+### Prerequisites
+
+- Python (>=3.8, <3.12)
+- Poetry (for package management)
+
+### Setting up YAIBA
+
+```bash
+# Create and activate a new virtual environment
+poetry env use python3.8
+
+# Install dependencies with visualization support
+poetry install --extras "visualize"
+
+# Start Jupyter Lab
+poetry run jupyter lab
+```
+
 ## Features
 
 * Collecting following informations in VRChat
